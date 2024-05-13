@@ -109,12 +109,12 @@ function App() {
 
   const handleResetButton = () => {
     setRunning(false);
+    setDisplayTime({
+      sessionTime: 25 * 60,
+      breakTime: 5 * 60,
+    });
     setBreakSession({ time: initialBreakTime });
     setSessionSession({ time: initialSessionTime });
-    setDisplayTime({
-      sessionTime: sessionSession.time * 60,
-      breakTime: breakSession.time * 60,
-    });
   };
 
   return (
