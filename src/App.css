@@ -44,6 +44,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-top: 10px;
 }
 
 #buttons {
@@ -55,4 +56,9 @@
 #inputs button {
   padding: 5px 15px;
   font-size: 20px;
+}
+
+#footer {
+  margin-top: 50px;
+  font-size: 15px;
 }

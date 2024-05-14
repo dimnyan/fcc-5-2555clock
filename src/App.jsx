@@ -176,6 +176,7 @@ function App() {
           </>
         )}
       </div>
+      <p id="footer">Made by Dimnyan</p>
     </div>
   );
 }
