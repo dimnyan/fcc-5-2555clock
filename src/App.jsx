@@ -68,7 +68,9 @@ function App() {
   };
 
   const handlePauseButton = () => {
-    setRunning(false);
+    setTimeout(() => {
+      setRunning(false);
+    }, 500);
   };
 
   const timeDisplayer = (sec) => {
